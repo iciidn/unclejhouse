@@ -4,7 +4,7 @@
 			<div class="header-row">
 				<div class="header-column">
 					<div class="header-logo">
-						<a href="demo-hotel.html">
+						<a href="<?=base_url()?>">
 							<img alt="unclejhouse" width="85" height="85" src="<?=base_url()?>logo.jpeg">
 							<!-- <font style="font-size:17px;">UNCLE J HOUSE</font> -->
 						</a>
