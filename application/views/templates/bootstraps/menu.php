@@ -1,124 +1,118 @@
-<!-- header -->
-<header class="fixed-top header">
-	<!-- top header -->
-	<div class="top-header py-2 bg-white">
-		<div class="container">
-			<div class="row no-gutters">
-
-				<!-- <div class="col-lg-4 text-center text-lg-left">
-					<a class="text-color mr-3" href="tel:+443003030266"><strong>CALL</strong> +44 300 303 0266</a>
-					<ul class="list-inline d-inline">
-						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://facebook.com/themefisher/"><i class="ti-facebook"></i></a></li>
-						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/themefisher"><i class="ti-twitter-alt"></i></a></li>
-						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://github.com/themefisher"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://instagram.com/themefisher/"><i class="ti-instagram"></i></a></li>
-					</ul>
-				</div> -->
-
-				<div class="col-lg-12 text-center text-lg-right">
-					<ul class="list-inline">
-						<!-- <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
-						<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
-						<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li> -->
-
-						<li class="list-inline-item">
-							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="<?=base_url()?>uji_kompetensi" target="_blank">
-								Daftar Sertifikasi
-							</a>
-						</li>
-
-						<li class="list-inline-item">|</li>
-
-						<li class="list-inline-item">
-							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#loginModal" data-toggle="modal" data-target="#loginModal">
-								Masuk
-							</a>
-						</li>
-
-					</ul>
+<header id="header" class="header-flex" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 220, 'stickyChangeLogo': false}">
+	<div class="header-body">
+		<div class="header-container container">
+			<div class="header-row">
+				<div class="header-column">
+					<div class="header-logo">
+						<a href="demo-hotel.html">
+							<img alt="Porto" width="192" height="55" src="<?=base_url()?>assets/img/demos/hotel/logo-hotel.png">
+						</a>
+					</div>
+				</div>
+				<div class="header-column">
+					<div class="header-row">
+						<div class="header-nav header-nav-stripe">
+							<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+								<i class="fa fa-bars"></i>
+							</button>
+							<div class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+								<nav>
+									<ul class="nav nav-pills" id="mainNav">
+										<li class="active">
+											<a href="<?=base_url()?>">
+												Home
+											</a>
+										</li>
+										<li>
+											<a href="<?=base_url()?>">
+												Hotel
+											</a>
+										</li>
+										<li>
+											<a href="<?=base_url()?>">
+												Rooms &amp; Rates
+											</a>
+										</li>
+										<li>
+											<a href="<?=base_url()?>">
+												Special Offers
+											</a>
+										</li>
+										<li>
+											<a href="<?=base_url()?>">
+												Location
+											</a>
+										</li>
+										<li class="dropdown dropdown-full-color dropdown-primary dropdown-mega dropdown-mega-book-now" id="headerBookNow">
+											<a class="dropdown-toggle" href="<?=base_url()?>">
+												Book Now
+											</a>
+											<ul class="dropdown-menu">
+												<li>
+													<div class="dropdown-mega-content">
+														<form id="bookFormHeader" action="demo-hotel-book.html" method="POST">
+															<div class="row">
+																<div class="form-group">
+																	<div class="col-md-12">
+																		<div class="form-control-custom form-control-datepicker-custom">
+																			<input type="text" value="" class="form-control text-uppercase font-size-sm" data-msg-required="This field is required." placeholder="Arrival" name="bookNowArrivalHeader" id="bookNowArrivalHeader" required>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="form-group">
+																	<div class="col-md-12">
+																		<div class="form-control-custom form-control-datepicker-custom">
+																			<input type="text" value="" class="form-control text-uppercase font-size-sm" data-msg-required="This field is required." placeholder="Departure" name="bookNowDepartureHeader" id="bookNowDepartureHeader" required>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="form-group">
+																	<div class="col-md-6">
+																		<div class="form-control-custom">
+																			<select class="form-control text-uppercase font-size-sm" name="bookNowAdults" data-msg-required="This field is required." id="bookNowAdults" required>
+																				<option value="">Adults</option>
+																				<option value="1">1</option>
+																				<option value="2">2</option>
+																				<option value="3">3</option>
+																				<option value="4">4</option>
+																			</select>
+																		</div>
+																	</div>
+																	<div class="col-md-6">
+																		<div class="form-control-custom">
+																			<select class="form-control text-uppercase font-size-sm" name="bookNowKids" data-msg-required="This field is required." id="bookNowKids" required>
+																				<option value="">Kids</option>
+																				<option value="1">0</option>
+																				<option value="1">1</option>
+																				<option value="2">2</option>
+																				<option value="3">3</option>
+																				<option value="4">4</option>
+																			</select>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-md-12">
+																	<input type="submit" value="Check availability" class="btn btn-secondary btn-lg btn-block text-uppercase font-size-sm">
+																</div>
+															</div>
+														</form>
+													</div>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-	<!-- navbar -->
-	<div class="navigation w-100">
-		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-dark p-0">
-
-				<!-- <a class="navbar-brand" href="index.html">
-					<img src="<?php echo base_url() ?>assets/_tera_byte/images/logo.png" alt="logo">
-				</a> -->
-				<a class="navbar-brand" href="<?= base_url() ?>">
-					<img src="<?php echo base_url() ?>assets/img/logo.png" style="width:50px;border-radius:50%;padding:3px;" alt="tera_byte">
-					<b>
-						<span style="color:#1f98cd"> IT </span>
-						<span style="color:#1f98cd"> KONSULTAN </span>
-					</b>
-				</a>
-
-				<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
-					aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navigation">
-					<ul class="navbar-nav ml-auto text-center">
-						<li class="nav-item active">
-							<a class="nav-link" href="<?= base_url() ?>">
-								Beranda
-							</a>
-						</li>
-
-
-
-						<li class="nav-item dropdown view">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Informasi
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<!-- <li><a class="dropdown-item" href="<?= base_url() ?>">Jadwal Uji Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>">Skema Sertifikasi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>">Tempat Uji Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>asesor/view/0">Asesor Kompetensi</a></li>
-								<li><a class="dropdown-item" href="<?= base_url() ?>asesi/view/0">Pemegang Sertifikat</a></li> -->
-
-								<li class="dropdown-item dropdown dropleft">
-									<a class="dropdown-toggle" href="#" id="navbarDropdownSubmenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Sub Menu
-									</a>
-									<ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdownSubmenu">
-										<li><a class="dropdown-item" href="#!">Sub Menu 01</a></li>
-										<li><a class="dropdown-item" href="#!">Sub Menu 02</a></li>
-										<li><a class="dropdown-item" href="#!">Sub Menu 03</a></li>
-									</ul>
-								</li>
-
-							</ul>
-						</li>
-
-						<li class="nav-item @@courses">
-							<a class="nav-link" href="<?= base_url() ?>">
-								Download
-							</a>
-						</li>
-
-						<li class="nav-item @@blog">
-							<a class="nav-link" href="<?=base_url()?>pendaftaran" target="_blank">
-								Pendaftaran
-							</a>
-						</li>
-
-						<li class="nav-item @@contact">
-							<a class="nav-link" href="<?=base_url()?>kontak-us">
-								Hubungi Kami
-							</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</div>
 </header>
-<!-- /header -->
