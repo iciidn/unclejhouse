@@ -60,7 +60,7 @@
 
 	<body>
 
-		<div class="header-top-custom">
+		<!-- <div class="header-top-custom">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-5 col-address">
@@ -68,7 +68,7 @@
 						<label>address</label>
 						<strong>1234 Street Name, Uncle J House</strong>
 					</div>
-					<div class="col-sm-3 col-phone">
+					<div class="col-sm-7 col-phone">
 						<i class="icon-phone icons text-color-primary"></i>
 						<label>call us</label>
 						<strong>(800) 1234-5678</strong>
@@ -84,7 +84,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="body">
 
