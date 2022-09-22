@@ -45,7 +45,7 @@
     <div class="row mb-xl">
       <div class="col-md-8">
 
-        <h3 class="mt-xl mb-none pb-none text-uppercase">In the Heart of Porto</h3>
+        <h3 class="mt-xl mb-none pb-none text-uppercase">In the Heart of Uncle J House</h3>
         <div class="divider divider-primary divider-small mb-xl mt-none">
           <hr class="mt-sm">
         </div>
@@ -66,7 +66,7 @@
             <div class="micro-map-info-detail">
               <i class="icon-location-pin icons text-color-primary"></i>
               <label>address</label>
-              <strong>1234 Street Name, Porto, Envato</strong>
+              <strong>1234 Street Name, Uncle J House, Envato</strong>
               <a href="<?=base_url()?>" title="">(View Location)</a>
             </div>
             <div class="micro-map-info-detail">
@@ -87,7 +87,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 center">
-        <h3 class="mb-xs mt-none text-light text-uppercase">Enjoy the best of Porto</h3>
+        <h3 class="mb-xs mt-none text-light text-uppercase">Enjoy the best of Uncle J House</h3>
         <p class="lead text-light mb-xlg">Make your reservation right now with the best price</p>
 
         <a class="btn btn-primary btn-lg font-size-sm text-uppercase mt-sm" href="<?=base_url()?>">Book Now</a>
@@ -113,7 +113,7 @@
       </div>
       <div class="col-md-8">
 
-        <h3 class="mt-xl mb-none pb-none text-uppercase">Hotel Overview</h3>
+        <h3 class="mt-xl mb-none pb-none text-uppercase">Kost Overview</h3>
         <div class="divider divider-primary divider-small mb-xl mt-none">
           <hr class="mt-sm">
         </div>
@@ -179,7 +179,7 @@
           </blockquote>
           <div class="testimonial-arrow-down"></div>
           <div class="testimonial-author">
-            <p><strong>John Smith</strong><span>Porto Advisor</span></p>
+            <p><strong>John Smith</strong><span>Uncle J House Advisor</span></p>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
           </blockquote>
           <div class="testimonial-arrow-down"></div>
           <div class="testimonial-author">
-            <p><strong>Brad Smith</strong><span>Porto Advisor</span></p>
+            <p><strong>Brad Smith</strong><span>Uncle J House Advisor</span></p>
           </div>
         </div>
       </div>
@@ -201,7 +201,7 @@
           </blockquote>
           <div class="testimonial-arrow-down"></div>
           <div class="testimonial-author">
-            <p><strong>Paul Smith</strong><span>Porto Advisor</span></p>
+            <p><strong>Paul Smith</strong><span>Uncle J House Advisor</span></p>
           </div>
         </div>
       </div>
@@ -228,7 +228,7 @@
                 </span>
                 <span class="thumb-info-caption">
                   <span class="thumb-info-caption-text">
-                    <h4 class="text-uppercase">Porto Special</h4>
+                    <h4 class="text-uppercase">Uncle J House Special</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti...</p>
                   </span>
                 </span>
@@ -274,7 +274,7 @@
   </div>
 </section>
 
-<section class="section section-tertiary section-no-border m-none">
+<!-- <section class="section section-tertiary section-no-border m-none">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
@@ -313,4 +313,4 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->

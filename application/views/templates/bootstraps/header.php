@@ -66,7 +66,7 @@
 					<div class="col-sm-5 col-address">
 						<i class="icon-location-pin icons text-color-primary"></i>
 						<label>address</label>
-						<strong>1234 Street Name, Porto, Envato</strong>
+						<strong>1234 Street Name, Uncle J House</strong>
 					</div>
 					<div class="col-sm-3 col-phone">
 						<i class="icon-phone icons text-color-primary"></i>

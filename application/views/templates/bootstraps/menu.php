@@ -5,7 +5,8 @@
 				<div class="header-column">
 					<div class="header-logo">
 						<a href="demo-hotel.html">
-							<img alt="Porto" width="192" height="55" src="<?=base_url()?>assets/img/demos/hotel/logo-hotel.png">
+							<img alt="unclejhouse" width="85" height="85" src="<?=base_url()?>logo.jpeg">
+							<!-- <font style="font-size:17px;">UNCLE J HOUSE</font> -->
 						</a>
 					</div>
 				</div>
@@ -25,7 +26,7 @@
 										</li>
 										<li>
 											<a href="<?=base_url()?>">
-												Hotel
+												Kost
 											</a>
 										</li>
 										<li>

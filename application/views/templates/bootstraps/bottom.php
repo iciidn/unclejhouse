@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row pt-md pb-md">
           <div class="col-md-3 mb-none">
-            <img alt="Porto" class="img-responsive logo mt-sm" style="max-width: 145px;" src="<?=base_url()?>assets/img/demos/hotel/logo-hotel-footer.png">
+            <img alt="Porto" class="img-responsive logo mt-sm" style="max-width: 55px;" src="<?=base_url()?>logo.jpeg">
           </div>
           <div class="col-md-3 mb-none">
             <div class="footer-info">
@@ -45,7 +45,7 @@
         <ul>
           <li>
             <a href="<?=base_url()?>">
-              Hotel
+              Kost
             </a>
           </li>
           <li>
@@ -67,7 +67,7 @@
       </nav>
     </div>
     <div class="col-md-6 align-right">
-      <p>© Copyright 2017. All Rights Reserved.</p>
+      <p>© Copyright 2022. All Rights Reserved.</p>
     </div>
   </div>
 </div>
